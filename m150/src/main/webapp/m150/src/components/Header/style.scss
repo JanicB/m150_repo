@@ -1,0 +1,13 @@
+.header--container {
+    width: 100%;
+    .header {
+        height: 80px;
+        background-color: #111;
+        .header--logo {
+            font-size: 40px;
+            color: #FFE81F;
+            text-decoration: none;
+            line-height: 2em;
+        }
+    }
+}

@@ -1,0 +1,38 @@
+.product-button {
+	border: 1px solid #aaa;
+	height: 250px;
+	width: 200px;
+	margin: 5px 0px 5px 10px;
+	text-decoration: none;
+	display: inline-block;
+	padding: 2px 4px 2px 2px;
+	position: relative;
+
+	&:hover {
+		border-color: #888;
+	}
+	.product-button--image {
+		max-width: 80%;
+		max-height: 75%;
+	}
+	.product-button--info--container {
+		height: 24%;
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		.product-button--info {
+			height: 100%;
+			position: relative;
+			.product-button--name {
+				font-size: 16px;
+				color: #333;
+			}
+			.product-button--price {
+				position: absolute;
+				color: #666;
+				font-size: 13px;
+				bottom: 0;
+			}
+		}
+ 	}
+}

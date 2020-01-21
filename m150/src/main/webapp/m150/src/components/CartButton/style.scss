@@ -1,0 +1,20 @@
+.cart--container {
+    position: absolute;
+    right: 0;
+    text-align: center;
+    color: #aaa;
+    .cart--button {
+        z-index: 2;
+        position: absolute;
+        right: 0;
+        background-color: #444;
+        text-align: center;
+        color: #aaa;
+        width: 20px;
+        height: 20px;
+        padding: 5px;
+        &:hover {
+            color: white;
+        }
+    }
+}
